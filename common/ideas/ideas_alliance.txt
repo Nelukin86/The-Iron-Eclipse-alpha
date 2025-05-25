@@ -1,0 +1,24 @@
+
+ideas = {
+	country = {
+		ideas_alliance = {
+		
+			removal_cost = -1
+		
+			allowed = {
+			 always = yes
+			}
+		
+		
+			picture = GFX_ideas_alliance
+			
+			modifier = {
+				join_faction_tension = 0.00
+				ai_focus_aggressive_factor = 1
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}

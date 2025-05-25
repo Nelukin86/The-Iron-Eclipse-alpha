@@ -1,0 +1,15 @@
+add_namespace = ideas_alliance
+
+country_event = {
+    id = ideas_alliance.1
+    title = ideas_alliance.t
+    desc = ideas_alliance.d
+    picture = "GFX_report_event_china_politicians_captured"
+    is_triggered_only = yes
+
+    option = {
+        name = ideas_alliance.a
+        
+        add_ideas = ideas_alliance
+    }
+}

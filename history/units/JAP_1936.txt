@@ -1,0 +1,119 @@
+﻿units = {
+
+	#Kita Homengun - North Japan Army
+	division = {
+		division_name = { is_name_ordered = yes name_order = 7 }
+		location = 12421 # Asahigawa
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ominato Kichi Kaiheidan"
+		location = 9859 # Ominato
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Chishima Kichi Shubitai"
+		location = 12446 # Toyohara (северная Япония)
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = { is_name_ordered = yes name_order = 201 }
+		location = 12421 # Asahigawa
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.3
+	}
+
+	#Chuo Homengun - East Japan Army
+	division = {
+		division_name = { is_name_ordered = yes name_order = 2 }
+		location = 7087 # Shizuoka
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { is_name_ordered = yes name_order = 168 }
+		location = 1182 # Tokyo
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Osaka Kichi Kaiheidan"
+		location = 7072 # Osaka
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Yokusaka Tokubetsu Rikusentai"
+		location = 9998 # Yokosuka
+		division_template = "Rikusentai"
+		start_experience_factor = 0.3
+	}
+
+	#Roppou Homengun - West Japan Army
+	division = {
+		division_name = { is_name_ordered = yes name_order = 4 }
+		location = 9950 # Nagasaki
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kure Kichi Kaiheidan"
+		location = 1092 # Hiroshima
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Sasebo Kichi Kaiheidan"
+		location = 9950 # Nagasaki
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#Оставшиеся дивизии перемещаем тоже на Японские локации:
+	division = {
+		name = "Tokyo Kichi Shubitai"
+		location = 1182 # Tokyo
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Osaka Dai Shidan"
+		location = 7072 # Osaka
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { is_name_ordered = yes name_order = 11 }
+		location = 7087 # Shizuoka
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { is_name_ordered = yes name_order = 19 }
+		location = 1092 # Hiroshima
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { is_name_ordered = yes name_order = 20 }
+		location = 9950 # Nagasaki
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kyoto Kichi Kaiheidan"
+		location = 1082 # Kyoto
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}

@@ -1,0 +1,40 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {  
+                country_event = {
+                    id = ideas_alliance.1
+                }
+            }
+        }
+    }
+    on_daily = {
+        effect = {
+            IF = {
+                limit = {
+                    AND = {
+                    date = 1936.01.01
+                    has_global_flag = IDEAS_ALLIANCE_flag
+                    }
+                }
+                every_country = {
+                    country_event = {
+                        id = ideas_alliance.2
+                    }
+                }
+            }
+            clr_global_flag = IDEAS_ALLIANCE_flagа
+            clr_global_flag = IDEAS_1936_ALLIANCE_flag
+            modify_global_flag = {
+                flag = IDEAS_1936_ALLIANCE_flag
+                value = 0
+            }
+            modify_global_flag = {
+                flag = IDEAS_ALLIANCE_flag
+                value = 0
+            }
+        }
+    }
+}
+
+

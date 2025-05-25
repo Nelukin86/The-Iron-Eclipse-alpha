@@ -1,0 +1,25 @@
+ideas = {
+    country = {
+        UKR_agrarian_reform = {
+            allowed = {
+				always = no
+			}
+            picture = LIT_invested_in_farms
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.05
+                monthly_population = 0.1
+            }
+        }
+        UKR_four_year_plan_ = {
+            allowed = {
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.1
+                production_speed_buildings_factor = 0.1
+            }
+        }
+    }
+}

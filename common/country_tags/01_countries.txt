@@ -1,0 +1,2 @@
+NKR = "countries/NorthKorea.txt"
+KOS	= "countries/Kosovo.txt"
