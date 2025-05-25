@@ -650,7 +650,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 155 y = 45 }
+			position = { x = 160 y = 45 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
