@@ -2,7 +2,6 @@
 state={
 	id=810
 	name="STATE_810"
-
 	history={
 		owner = SOV
 		victory_points = {
@@ -20,7 +19,7 @@ state={
 				bunker = 2
 
 			}
-
+         
 		}
 		add_core_of = LAT
 		add_core_of = SOV
