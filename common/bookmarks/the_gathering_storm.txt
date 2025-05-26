@@ -740,7 +740,7 @@ bookmarks = {
 		AUS = {
 			minor = yes
 			history = AUS_GATHERING_STORM_DESC #might need an edit because it is not very good at the moment.
-			ideology = neutrality
+			ideology = democratic
 			available = { has_dlc = "Gotterdammerung" }
 			ideas = {
 				AUS_treaty_of_saint_germain_en_laye

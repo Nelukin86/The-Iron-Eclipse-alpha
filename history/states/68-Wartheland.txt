@@ -10,9 +10,10 @@ state = {
 
 	history = {
 
-		owner = POL
+		owner = GER
 		add_core_of = POL
 		add_core_of = PRE
+		add_core_of = GER
 
 		victory_points = {
 			3473 1 # Küstrin

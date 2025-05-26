@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = NKR
+		owner = KOR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3
@@ -21,6 +21,7 @@ state={
 		}	
 
 		add_core_of = NKR
+		add_core_of = KOR
 	}
 
 	provinces={

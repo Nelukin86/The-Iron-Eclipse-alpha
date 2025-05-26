@@ -7,8 +7,9 @@ state = {
 	
 	history = {
 		
-		owner = UKR
-
+		owner = HUN
+        set_demilitarized_zone = yes 
+		
 		buildings = {
 			infrastructure = 3
 		}
@@ -27,6 +28,8 @@ state = {
 
 		add_core_of = SLO
 		add_core_of = UKR
+		add_core_of = AUS
+		
 		
 		# This should isntead be reclaimable through Hungarian focuses with ww
 		IF = {

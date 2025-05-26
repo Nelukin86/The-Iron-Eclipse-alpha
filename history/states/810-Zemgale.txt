@@ -4,6 +4,7 @@ state={
 	name="STATE_810"
 	history={
 		owner = SOV
+		set_demilitarized_zone = yes 
 		victory_points = {
 			6222 3 #Jelgava
 		}

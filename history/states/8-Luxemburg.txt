@@ -12,7 +12,9 @@ state = {
 	history = {
 
 		owner = LUX
+		set_demilitarized_zone = yes 
 		add_core_of = LUX
+		add_core_of = GER
 
 		buildings = {
 			infrastructure = 3

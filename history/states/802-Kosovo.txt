@@ -12,7 +12,8 @@ state = {
 		victory_points = {
 			9849 2 
 		}
-		owner = KOS
+		owner = YUG
+		set_demilitarized_zone = yes 
 		buildings = {
 			infrastructure = 1
 
