@@ -12,8 +12,9 @@ state = {
 	
 	history = {
 
-		owner = MOR
+		owner = WES
 		add_core_of = MOR
+		add_core_of = WES
 
 		victory_points = {
 			7069 10 # Casablanca

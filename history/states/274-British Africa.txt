@@ -12,8 +12,9 @@ state = {
 
 	history = {
 
-		owner = GHA
+		owner = CAR
 		add_core_of = GHA
+		add_core_of = CAR
 
 		victory_points = {
 			10862 2 # Accra 

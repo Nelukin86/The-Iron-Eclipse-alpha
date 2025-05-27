@@ -10,6 +10,7 @@ state={
 
 	history= {
 		owner = TUR
+		set_demilitarized_zone = yes
 		add_core_of = TUR
 		add_core_of = SYR
 		victory_points = {

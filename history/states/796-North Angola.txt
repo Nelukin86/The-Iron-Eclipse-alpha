@@ -2,7 +2,8 @@ state={
 	id=796
 	name="STATE_796"
 	history={
-		owner = ANG
+		owner = COG
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
 			2115 = {
@@ -13,6 +14,7 @@ state={
 			2115 1 
 		}
 		add_core_of = ANG
+		add_core_of = COG
 	}
 	provinces={
 		2115 
