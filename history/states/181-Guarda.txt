@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = SPR
+		owner = POR
 		add_core_of = POR
 		add_core_of = SPR
 

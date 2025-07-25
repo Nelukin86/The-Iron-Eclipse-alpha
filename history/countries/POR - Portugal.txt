@@ -1,5 +1,6 @@
 ﻿capital = 112
 
+set_cosmetic_tag = ESU_POR_unified
 oob = "POR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
