@@ -7,5 +7,5 @@ tags={
 	"Graphics"
 }
 name="The Iron Eclipse"
-supported_version="1.16.8"
+supported_version="1.16.9"
 path="C:/Users/Andre/Documents/Paradox Interactive/Hearts of Iron IV/mod/The Iron Eclipse"
