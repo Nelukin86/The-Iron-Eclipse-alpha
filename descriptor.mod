@@ -9,3 +9,4 @@ tags={
 name="The Iron Eclipse"
 supported_version="1.16.9"
 path="C:/Users/Andre/Documents/Paradox Interactive/Hearts of Iron IV/mod/The Iron Eclipse"
+remote_file_id="3535001548"
