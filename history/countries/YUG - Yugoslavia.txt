@@ -30,7 +30,7 @@ recruit_character = YUG_ivan_ribar
 recruit_character = YUG_dimitrije_ljotic
 recruit_character = YUG_ivo_lola_ribar
 recruit_character = YUG_peter_ii
-set_cosmetic_tag = SER
+
 oob = "YUG_1936"
 
 give_guarantee = MNT
