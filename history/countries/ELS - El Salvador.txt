@@ -1,5 +1,6 @@
 ﻿capital = 314
 
+set_cosmetic_tag = USC_UNIFIED
 oob = "ELS_1936"
 
 # Starting tech

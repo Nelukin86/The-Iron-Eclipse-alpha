@@ -1,5 +1,6 @@
 ﻿capital = 315
 
+set_cosmetic_tag = antilles
 oob = "CUB_1936"
 
 # Starting tech
