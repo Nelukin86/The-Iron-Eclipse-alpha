@@ -1,5 +1,6 @@
 ﻿capital = 11
 
+set_cosmetic_tag = LIT_GER_autonomy_satellite
 oob = "LIT_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -170,7 +171,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no

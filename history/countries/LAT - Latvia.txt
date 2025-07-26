@@ -1,5 +1,6 @@
 ﻿capital = 808
 
+set_cosmetic_tag = UBD
 oob = "LAT_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -180,7 +181,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1931.10.3"
 	election_frequency = 10
 	elections_allowed = no
