@@ -23,7 +23,7 @@ state = {
 		}
 
 		add_core_of = BLR
-		add_core_of = BLR
+		add_core_of = SOV
 			buildings = {
 				industrial_complex = 2
 				arms_factory = 1

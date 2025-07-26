@@ -1,3 +1,11 @@
+create_faction = Аккорд
+add_to_faction = FRA
+add_to_faction = ICE
+add_to_faction = LUX
+add_to_faction = BEL
+
+
+
 capital = 126
 
 if = {

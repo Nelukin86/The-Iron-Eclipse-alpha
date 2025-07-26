@@ -1,4 +1,9 @@
-﻿capital = 282 # Tokyo/Kanto
+﻿create_faction = ОДТО
+add_to_faction = KOR
+add_to_faction = VIN
+
+
+capital = 282 # Tokyo/Kanto
 
 # Starting Stats
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS

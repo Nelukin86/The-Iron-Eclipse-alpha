@@ -1554,6 +1554,8 @@
  ISR: "Израиль"
  ISR_DEF: "Израиль"
  ISR_ADJ: "Израильск"
+ VIN_unified: "Индокитай"
+ VIN_unified_DEF: "Индокитай"
  VIN_fascism: "Вьетнамская империя"
  VIN_fascism_DEF: "Вьетнамская империя"
  VIN_democratic: "Республика Вьетнам"

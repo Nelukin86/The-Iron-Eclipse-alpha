@@ -1,4 +1,6 @@
-﻿capital = 608
+﻿create_faction = КСС
+
+capital = 608
 
 oob = "PRC_1936"
 

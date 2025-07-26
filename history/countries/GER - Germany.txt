@@ -29,6 +29,13 @@ set_autonomy = {
         autonomous_state = autonomy_puppet
 	}
 
+create_faction = Рейхспакт
+add_to_faction = POL
+add_to_faction = UKR 
+add_to_faction = BLR 
+add_to_faction = LIT 
+add_to_faction = LAT
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"

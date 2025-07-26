@@ -1,5 +1,6 @@
 ﻿capital = 671 #Hanoi
 
+set_cosmetic_tag = VIN_unified
 oob = "VIN_1936"
 
 set_research_slots = 3

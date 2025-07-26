@@ -1,4 +1,8 @@
-﻿
+﻿create_faction = ОДКБ
+add_to_faction = MON 
+add_to_faction = FIN
+
+
 ####
 #### NO STEP BACK
 ####
@@ -670,7 +674,7 @@ if = {
 	}
 }
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.5
 set_war_support = 0.3
 
