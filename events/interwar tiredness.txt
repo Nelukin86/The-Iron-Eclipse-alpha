@@ -1,0 +1,15 @@
+add_namespace = interwar_fatigue
+
+country_event = {
+    id = interwar_fatigue.1
+    title = interwar_fatigue.t
+    desc = interwar_fatigue.d
+    picture = "GFX_report_event_china_politicians_captured"
+    is_triggered_only = yes
+
+    option = {
+        name = interwar_fatigue.a
+        
+        add_ideas = interwar_fatigue
+    }
+}

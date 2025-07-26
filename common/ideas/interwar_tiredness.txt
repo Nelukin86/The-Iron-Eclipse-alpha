@@ -1,0 +1,35 @@
+ideas = {
+    country = {
+        interwar_fatigue = {
+            name = "Межвоенная Усталость"
+            desc = "Общественное мнение и экономическая истощенность после череды локальных войн делают крупные конфликты невозможными до 1939 года."
+            removal_cost = -1
+            allowed = { 
+                always = yes 
+                date < 1939.09.01
+            }
+            
+            picture = GFX_polgermans
+            
+            modifier = {
+                set_war_support = -0.20
+                justify_war_goal_time = 0.50
+                join_faction_tension = 0.50
+                can_start_war = no
+            }
+            
+            rule = {
+                can_start_war = {
+                    is_ai = no
+                    NOT = { has_war_goal_with = { 
+                        OR = {
+                            has_idea_tag = special_revanchism
+                            has_idea_tag = time_tech_cb
+                        }
+                    } }
+                    custom_error_tooltip = interwar_fatigue_tt
+                }
+            }
+        }
+    }
+}
