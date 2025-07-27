@@ -15,6 +15,7 @@ ideas = {
 			modifier = {
 				join_faction_tension = 0.00
 				ai_focus_aggressive_factor = 1
+				production_factory_start_efficiency_factor = 0.1
 			}
 			rule = {
 				can_create_factions = yes
