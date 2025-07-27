@@ -56,12 +56,12 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_building_entries"
-				position = { x = 155 y = 45 }
+				position = { x = 153 y = 45 }
 				size = { width = 480 height = 105 }
 				format = "UPPER_LEFT"
 				slotsize = { width = 60 height = 52 }
 				max_slots_horizontal = 5
-	
+				max_slots_vertical = 1
 			}
 			
 			instantTextboxType = {
@@ -75,14 +75,15 @@ guiTypes = {
 				format = left
 				fixedsize = yes
 			}
-
+			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 155 y = 173 }
+				position = { x = 150 y = 170 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 30 height = 25 }
-				max_slots_horizontal = 9
+				slotsize = { width = 61 height = 50 }
+				max_slots_horizontal = 5
+				max_slots_vertical = 5
 			}
 
 			iconType ={
@@ -133,7 +134,7 @@ guiTypes = {
 				fixedsize = yes
 				format = center
 			}
-
+			
 			OverlappingElementsBoxType = {
 				name = "state_owners"
 				position = { x = 35 y = 63 }
@@ -141,7 +142,7 @@ guiTypes = {
 				format = left
 				spacing = 1.0
 			}
-			
+
 			positionType = {
 				name = "state_owners_size_when_owner_is_controller"
 				position = { x = 110 y = 40 }
@@ -150,8 +151,8 @@ guiTypes = {
 			positionType = {
 				name = "state_owners_size_when_owner_is_not_controller"
 				position = { x = 60 y = 40 }
-			}	
-			
+			}
+
 			buttonType = {
 				name = "controller_flag"
 				quadTextureSprite = "GFX_flag_small2"
@@ -412,11 +413,11 @@ guiTypes = {
 				max_slots_horizontal = 7
 				max_slots_vertical = 1
 			}
-		}
+		}	
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -4 y = 12 }
+			position = { x = -6 y = 14 }
 			quadTextureSprite ="GFX_closebutton_small"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -424,15 +425,16 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
+
 		buttonType = {
 			name = "scorched_earth_state_button"
-			position = { x = -999 y = 135 }
-			quadTextureSprite ="GFX_scorched_earth"
+			position = { x = -17 y = 413 }
+			quadTextureSprite ="GFX_scorched_earth_state"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
 		}
 	}
-
+	
 	windowType = {
 		name = "state_stakeholder_entry"
 		position = { x = 0 y = 0}	
@@ -468,7 +470,6 @@ guiTypes = {
 			scale = 0.8
 		}
 	}
-
 	
 	containerWindowType = {
 		name = "state_building_entry"
@@ -510,51 +511,47 @@ guiTypes = {
 			rotation = 1.5708		
 		}	
 	}
-
+	
 	containerWindowType = {
 		name = "state_shared_slot_building_entry"
-		position = { x = 0 y = 0 }
-		size = { width = 30 height = 25 }
+		position = { x=4 y=-15 }
+		size = { width=70 height= 70 }
 		clipping = no
 
 		iconType = {
 			name = "build_slot_bg"
-			position = { x = 0 y = 0 }
+			position = { x=0 y=0 }	
 			spriteType = "GFX_build_slot_bg"
 			alwaystransparent = yes
-			scale = 0.52
 		}
-
+		
 		buttonType = {
 			name = "building_picture"
-			position = { x = 5 y = 0 }
+			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_buildings_strip"
-			scale = 0.52
 		}
-
+		
 		iconType = {
 			name = "building_status_overlay"
-			position = { x = 5 y = 0 }
+			position = { x = 10 y = 0 }
 			quadTextureSprite = "GFX_building_status_overlay"
 			alwaystransparent = yes
-			scale = 0.52
 		}
-
+		
 		buttonType = {
 			name = "remove"
-			position = { x = 20 y = 15 }
+			position = { x = 40 y = 29 }
 			spriteType = "GFX_cancel_conversion_button"
-			scale = 0.52
 		}
-
+		
 		iconType = {
 			name = "damage_bar"
 			spriteType = "GFX_damage_bar"
-			position = { x = 4 y = 17 }
-			rotation = 1.5708
-		}
+			position = { x=7 y=36 }
+			rotation = 1.5708		
+		}	
 	}
-
+	
 	containerWindowType = {
 		name = "province_building_entry"
 		position = { x=0 y=0 }
