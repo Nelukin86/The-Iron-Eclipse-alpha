@@ -1,14 +1,13 @@
 ideas = {
     country = {
         interwar_fatigue = {
-            name = "Межвоенная Усталость"
-            desc = "Общественное мнение и экономическая истощенность после череды локальных войн делают крупные конфликты невозможными до 1939 года."
+            cancel = {
+                date = 1939.09.01
+            }
             removal_cost = -1
             allowed = { 
                 always = yes 
-            }
-             available = {
-                date < 1939.09.01
+            
              }
             picture = generic_war_weariness
             
