@@ -45,6 +45,19 @@ characters = {
 		}
 	}
 
+	UKR_pavlo_shandruk = {
+		name = UKR_pavlo_shandruk
+		portraits = {
+			civilian = {
+				large = portrait_UKR_pavlo_shandruk
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "1953.3.1"
+			id = -1
+			traits = { }
+		}
 	UKR_mykhailo_omelianovych_pavlenko = {
 
 		name = UKR_mykhailo_omelianovych_pavlenko
