@@ -11,7 +11,7 @@ state={
 
 	history={
 		owner = GER
-		set_demilitarized_zone = yes 
+		set_demilitarized_zone = no
 		add_dynamic_modifier = {
 			modifier = FRA_maginot_line_dynamic_modifier
 		}

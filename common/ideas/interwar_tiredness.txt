@@ -2,7 +2,7 @@ ideas = {
     country = {
         interwar_fatigue = {
             cancel = {
-                date = 1939.09.01
+                date > 1939.09.01
             }
             removal_cost = -1
             allowed = { 

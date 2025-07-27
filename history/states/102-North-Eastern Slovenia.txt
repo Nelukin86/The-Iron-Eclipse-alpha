@@ -17,6 +17,7 @@ state=
 		}
 		add_core_of = SLV
 		add_core_of = AUS
+		add_core_of = YUG
 	}
 	provinces={
 		596 665 3631 3654 6672 9596

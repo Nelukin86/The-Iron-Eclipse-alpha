@@ -12,7 +12,7 @@ state = {
 	history = {
 
 		owner = GER
-		set_demilitarized_zone = yes 
+		set_demilitarized_zone = no 
 		add_core_of = LUX
 		add_core_of = GER
 

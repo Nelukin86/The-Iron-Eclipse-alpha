@@ -25,7 +25,7 @@ set_autonomy = {
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
-		target = LAT
+		target = UBD
         autonomous_state = autonomy_puppet
 	}
 
