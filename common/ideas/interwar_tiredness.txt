@@ -6,9 +6,10 @@ ideas = {
             removal_cost = -1
             allowed = { 
                 always = yes 
-                date < 1939.09.01
             }
-            
+             available = {
+                date < 1939.09.01
+             }
             picture = generic_war_weariness
             
             modifier = {
