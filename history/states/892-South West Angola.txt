@@ -5,7 +5,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ANG
+		owner = COG
 		buildings = {
 			infrastructure = 1
 		}
@@ -13,7 +13,7 @@ state={
 			10966 1 
 		}
 		add_core_of = ANG
-
+		add_core_of = COG
 	}
 
 	provinces={

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = LBA
+		owner = ALG
 		add_core_of = ALG
 		add_core_of = LBA
 

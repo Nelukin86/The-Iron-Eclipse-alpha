@@ -8,6 +8,16 @@ if = {
 	}
 	set_oob = "FRA_1936"
 }
+	set_autonomy = {
+		target = ALG
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = TUN
+		autonomous_state = autonomy_puppet
+	}
+
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"

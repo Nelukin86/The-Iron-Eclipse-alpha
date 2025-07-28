@@ -12,9 +12,10 @@ state = {
 
 	history = {
 
-		owner = ANG
+		owner = COG
 		add_core_of = ZAM
 		add_core_of = ANG
+		add_core_of = COG
 
 		victory_points = {
 			5199 2 #Lusaka

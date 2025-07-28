@@ -13,7 +13,6 @@ state = {
 
 		owner = POR
 		add_core_of = POR
-		add_core_of = SPR
 
 		victory_points = {
 			9787 1 # Viseu
