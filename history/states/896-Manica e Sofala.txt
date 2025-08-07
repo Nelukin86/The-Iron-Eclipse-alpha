@@ -4,13 +4,13 @@ state={
 	manpower = 188600
 	state_category = pastoral
 	history={
-		owner = SAF
+		owner = COG
 		buildings = {
 			infrastructure = 2
 
 		}
 		add_core_of = MZB
-		add_core_of = SAF
+		add_core_of = COG
 	}
 
 

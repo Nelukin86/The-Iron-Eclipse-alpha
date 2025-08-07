@@ -1,6 +1,7 @@
 ﻿capital = 295 # Leopoldville/Kinshaasa
 
 set_oob = "COG_1936"
+set_cosmetic_tag = COG_mittelafrikan_kingdom
 
 # Starting tech
 set_technology = {

@@ -16,6 +16,10 @@ if = {
 		target = TUN
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = MAD
+		autonomous_state = autonomy_puppet
+	}
 
 
 if = {
