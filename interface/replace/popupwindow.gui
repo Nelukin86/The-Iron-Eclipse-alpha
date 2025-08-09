@@ -41,7 +41,7 @@ guiTypes = {
 		iconType = {
 			name = "sender_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x= 14 y = 10 }
+			position = { x= 24 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -49,13 +49,13 @@ guiTypes = {
 		{
 			name ="sender_flag_frame"
 			spriteType = "GFX_large_flag_frame"
-			position = { x= 20 y = 16 }
+			position = { x= 19 y = 16 }
 		}
 
 		iconType = {
 			name = "receiver_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x= 470 y = 10 }
+			position = { x= 476 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
