@@ -72,35 +72,6 @@ characters={
 			allowed  = {
 				original_tag  = USA
 			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_suspend_the_presecution
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_neutrality_act
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_limited_intervention
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-					NOT = {
-						has_country_leader = {
-							ruling_only = yes
-							character = USA_earl_browder
-						}
-					}
-				}
-			}
 			traits  = {
 				communist_revolutionary
 			}
