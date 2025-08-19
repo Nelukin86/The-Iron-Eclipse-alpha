@@ -16,10 +16,6 @@ if = {
 	}
 	set_technology = { camelry = 1 }
 }
-
-recruit_character = ASY_shimun_eshai
-recruit_character = ASY_benjamin_arsanis
-
 1939.1.1 = {
 
 	add_political_power = 1198

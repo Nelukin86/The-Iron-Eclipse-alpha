@@ -95,8 +95,3 @@ set_popularities = {
 	communism = 0
 	neutrality = 0
 }
-
-
-recruit_character = KBK_betal_kalmyk
-
-

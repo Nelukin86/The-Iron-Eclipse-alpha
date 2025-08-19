@@ -12,7 +12,6 @@ IF = {
 		# TODO JA, change this!
 		has_dlc = "Arms Against Tyranny"
 	}
-	recruit_character = SUR_guianan_indigenous_council
 }
 
 set_convoys = 5

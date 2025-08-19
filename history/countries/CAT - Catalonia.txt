@@ -77,9 +77,6 @@ set_popularities = {
 	fascism = 3
 	communism = 47
 }
-
-recruit_character = CAT_lluis_companys
-
 create_country_leader = {
 	name = "Andreu Nin i Pérez"
 	picture = GFX_portrait_Andreu_Nin_i_Perez

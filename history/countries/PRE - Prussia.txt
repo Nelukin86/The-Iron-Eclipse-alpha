@@ -161,6 +161,3 @@ set_popularities = {
 
 add_ideas = {
 }
-
-recruit_character = PRE_eitel_friedrich
-

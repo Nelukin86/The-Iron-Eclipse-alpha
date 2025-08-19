@@ -94,8 +94,3 @@ set_popularities = {
 	communism = 10
 	neutrality = 40
 }
-
-
-recruit_character = CHU_gerasim_ivanov
-
-

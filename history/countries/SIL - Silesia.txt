@@ -210,6 +210,3 @@ set_popularities = {
 	communism = 35
 	neutrality = 10
 }
-
-recruit_character = SIL_jozsef_kozdon
-recruit_character = SIL_alexander_hochberg

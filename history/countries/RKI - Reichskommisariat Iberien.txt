@@ -160,9 +160,6 @@ set_popularities = {
 	fascism = 80
 	communism = 5
 }
-
-recruit_character = GER_walter_warlimont
-
 add_ideas = {
 	war_economy
 	extensive_conscription

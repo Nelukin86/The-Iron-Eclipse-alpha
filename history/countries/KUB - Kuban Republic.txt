@@ -80,5 +80,3 @@ set_popularities = {
 	communism = 20
 	fascism = 20
 }
-
-recruit_character = KUB_ivanis_vasily_nikolaevich

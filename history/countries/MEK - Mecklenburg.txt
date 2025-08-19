@@ -169,5 +169,3 @@ set_popularities = {
 
 add_ideas = {
 }
-
-recruit_character = MEK_christian_louis

@@ -64,5 +64,3 @@ set_popularities = {
 	communism = 5
 	neutrality = 90
 }
-
-recruit_character = IMO_muhammad_khalili

@@ -160,9 +160,6 @@ set_popularities = {
 	fascism = 80
 	communism = 5
 }
-
-recruit_character = RKT_weli_kayum_khan
-
 add_ideas = {
 	war_economy
 	extensive_conscription

@@ -88,10 +88,6 @@ set_popularities = {
 	communism = 10
 	neutrality = 30
 }
-
-recruit_character = SYR_mehemed_ali_abed
-recruit_character = SYR_hashim_al_atassi
-
 create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""

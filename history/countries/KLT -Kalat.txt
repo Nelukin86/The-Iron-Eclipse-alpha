@@ -42,7 +42,6 @@ if = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
 	}
-	recruit_character = RAJ_ahmad_yar_khan
 }
 
 set_politics = {

@@ -77,5 +77,3 @@ set_popularities = {
 	communism = 20
 	fascism = 20
 }
-
-recruit_character = DON_vladimir_sidorin

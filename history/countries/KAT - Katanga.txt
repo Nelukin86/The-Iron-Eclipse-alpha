@@ -67,8 +67,3 @@ set_popularities = {
 	communism = 15
 	fascism = 5
 }
-
-recruit_character = KAT_moise_tshombe
-
-
-

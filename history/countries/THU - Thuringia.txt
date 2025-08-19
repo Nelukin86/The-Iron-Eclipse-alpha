@@ -159,5 +159,3 @@ set_popularities = {
 
 add_ideas = {
 }
-
-recruit_character = THU_erwin_baum
