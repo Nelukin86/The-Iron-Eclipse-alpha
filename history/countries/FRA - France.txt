@@ -51,3 +51,5 @@ set_popularities = {
 	neutrality = 15
 	communism = 20
 }
+
+recruit_character = FRA_Puchkov

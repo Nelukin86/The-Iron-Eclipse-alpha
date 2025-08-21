@@ -2,7 +2,12 @@
  #SOVIET UNION
  SOV_iosif_stalin: "Иосиф Сталин"
  SOV_konstantin_rodzayevsky: "Константин Родзаевский"
- SOV_aleksandr_kerensky: "Андрей Нелукин"
+ SOV_aleksandr_kerensky: "Александр Додик"
+ SOV_nelukin: "Андрей Нелукин"
+ GER_degurshaff: "Таня Фон Дегуршафф"
+ FRA_puchkov: "Дмитрий Пучков"
+ JAP_tetsu: "Шигурэ Уиллис"
+ USA_sitnikov: "Матвей Ситников"
  SOV_supreme_soviet: "Верховный Совет"
  SOV_provisional_government: "Временное правительство"
  SOV_georgy_zhukov: "Георгий Жуков"

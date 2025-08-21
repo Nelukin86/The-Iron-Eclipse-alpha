@@ -45,3 +45,5 @@ set_popularities = {
 	communism = 2
 	neutrality = 10
 }
+
+recruit_character = JAP_Tetsu

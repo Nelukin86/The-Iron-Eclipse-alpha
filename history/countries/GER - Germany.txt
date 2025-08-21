@@ -74,3 +74,5 @@ set_popularities = {
     communism = 10
     neutrality = 5
 }
+
+recruit_character = GER_Degurshaff

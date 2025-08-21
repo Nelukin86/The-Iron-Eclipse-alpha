@@ -1,0 +1,22 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_SOV_Nelukin"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Andrey_Nelukin.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_Degurshaff"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Tanya_Degurechaff.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_Sitnikov"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Matvey_Sitnikov.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Puchkov"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Dmitriy_Puchkov.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Tetsu"
+		texturefile = "gfx/leaders/JAP/portrait_jap_tetsu_katayama.dds"
+	}
+}

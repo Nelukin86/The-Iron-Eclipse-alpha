@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "SOV"
 		default = yes
-		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = socialism
 			ideas = {}
 			focuses = {}
 		}
@@ -26,22 +26,22 @@ bookmarks = {
 			focuses = {}
 		}
 		
-		GER = {
+		"GER" = {
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = democratic
 			ideas = {}
 			focuses = {}
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = democratic
 			ideas = {}
 			focuses = {}	
 		}
 	
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = democratic
 			ideas = {}	
 			focuses = {}			
 		}

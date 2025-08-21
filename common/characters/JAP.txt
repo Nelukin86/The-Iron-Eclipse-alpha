@@ -1,16 +1,16 @@
 characters = {
-	SOV_Nelukin = {
-		name = SOV_nelukin
+	JAP_Tetsu = {
+		name = JAP_tetsu
 		 portraits = {
 		 	civilian = {
-		 		large = "GFX_SOV_Nelukin"
+		 		large = "GFX_JAP_Tetsu"
 		 	}
 			army = {
-                large = "GFX_SOV_Nelukin"
+                large = "GFX_JAP_Tetsu"
             }
 		 }
 		country_leader = {
-			ideology = socialism
+			ideology = liberalism
 			traits = {}
 			expire = "1964.3.1.1"
 			id = -1

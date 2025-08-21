@@ -1,16 +1,16 @@
 characters = {
-	SOV_Nelukin = {
-		name = SOV_nelukin
+	USA_Sitnikov = {
+		name = USA_sitnikov
 		 portraits = {
 		 	civilian = {
-		 		large = "GFX_SOV_Nelukin"
+		 		large = "GFX_USA_Sitnikov"
 		 	}
 			army = {
-                large = "GFX_SOV_Nelukin"
+                large = "GFX_USA_Sitnikov"
             }
 		 }
 		country_leader = {
-			ideology = socialism
+			ideology = liberalism
 			traits = {}
 			expire = "1964.3.1.1"
 			id = -1

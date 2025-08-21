@@ -1,16 +1,16 @@
 characters = {
-	SOV_Nelukin = {
-		name = SOV_nelukin
+	GER_Degurshaff = {
+		name = GER_degurshaff
 		 portraits = {
 		 	civilian = {
-		 		large = "GFX_SOV_Nelukin"
+		 		large = "GFX_GER_Degurshaff"
 		 	}
 			army = {
-                large = "GFX_SOV_Nelukin"
+                large = "GFX_GER_Degurshaff"
             }
 		 }
 		country_leader = {
-			ideology = socialism
+			ideology = populism
 			traits = {}
 			expire = "1964.3.1.1"
 			id = -1
