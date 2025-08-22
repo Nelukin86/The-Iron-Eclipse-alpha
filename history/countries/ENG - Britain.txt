@@ -62,3 +62,5 @@ set_autonomy = {
 	target = SAF
 	autonomous_state = autonomy_puppet
 }
+
+recruit_character = ENG_Shabanov

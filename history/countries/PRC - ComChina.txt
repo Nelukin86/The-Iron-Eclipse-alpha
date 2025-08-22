@@ -3,6 +3,7 @@
 capital = 608
 
 oob = "PRC_1936"
+set_cosmetic_tag = PRC_proclaimed
 
 # Starting tech
 set_technology = {
@@ -22,3 +23,6 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+recruit_character = PRC_Zubarev
+

@@ -19,4 +19,12 @@ spriteTypes = {
 		name = "GFX_JAP_Tetsu"
 		texturefile = "gfx/leaders/JAP/portrait_jap_tetsu_katayama.dds"
 	}
+		spriteType = {
+		name = "GFX_PRC_Zubarev"
+		texturefile = "gfx/leaders/PRC/Portrait_prc_maxim_zubarev.dds"
+	}
+			spriteType = {
+		name = "GFX_ENG_Shabanov"
+		texturefile = "gfx/leaders/ENG/"
+	}
 }

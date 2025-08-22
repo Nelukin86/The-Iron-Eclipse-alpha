@@ -1,6 +1,8 @@
-﻿capital = 112
+﻿#capital = 112 # Lisabon
+capital = 41 # Madrid
 
 oob = "POR_1936"
+set_cosmetic_tag = ESU_POR_unified
 
 set_research_slots = 3
 

@@ -1,16 +1,16 @@
 characters = {
-	PRC_Zubarev = {
-		name = PRC_zubarev
+	ENG_Shabanov = {
+		name = ENG_shabanov
 		 portraits = {
 		 	civilian = {
-		 		large = "GFX_PRC_Zubarev"
+		 		large = "GFX_ENG_Shabanov"
 		 	}
 			army = {
-                large = "GFX_PRC_Zubarev"
+                large = "GFX_ENG_Shabanov"
             }
 		 }
 		country_leader = {
-			ideology = stalinism
+			ideology = liberalism
 			traits = {}
 			expire = "1964.3.1.1"
 			id = -1
