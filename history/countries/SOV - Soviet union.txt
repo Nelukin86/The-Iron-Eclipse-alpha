@@ -3,7 +3,7 @@ add_to_faction = MON
 add_to_faction = FIN
 
 set_cosmetic_tag = SOV_russia
-
+oob = "SOV_1936"
 capital = 219 # Moscow
 
 starting_train_buffer = 3.0
