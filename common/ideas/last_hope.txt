@@ -1,7 +1,8 @@
 ideas = {
 	country = {
 		idea_SOV_last_hope = {
-		
+			picture = last_hope
+			
 			removal_cost = -1
 		
 			allowed = {
@@ -9,8 +10,6 @@ ideas = {
 					character = SOV_Nelukin
 				}
 			}
-
-			picture = GFX_last_hope
 			
 			modifier = {
 				stability_factor = 0.10

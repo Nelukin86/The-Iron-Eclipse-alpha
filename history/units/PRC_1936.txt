@@ -1,0 +1,468 @@
+﻿division_template = {
+	name = "Sinhay Division"
+	division_names_group = PRC_INF_01
+	priority = 2
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {
+		name = "Sinhay Division"
+		location = 9843
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 11913
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6999
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7137
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 1319
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 12732
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7014
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 3783
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6918
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 10062
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 4186
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7105
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 9843
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 11913
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6999
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7137
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 1319
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 12732
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7014
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 3783
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6918
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 10062
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 4186
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7105
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 9843
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 11913
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6999
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7137
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 1319
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 12732
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7014
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 3783
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6918
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 10062
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 4186
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7105
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 9843
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 11913
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6999
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7137
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 1319
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 12732
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7014
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 3783
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 6918
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 10062
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 4186
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Sinhay Division"
+		location = 7105
+		division_template = "Sinhay Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+}					
+
+
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PRC"
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 50
+		#industrial_manufacturer = mio:PRC_tula_arms_plant_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "PRC" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+		#industrial_manufacturer = mio:PRC_mytishchy_machine_building_plant_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "PRC" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+		#industrial_manufacturer = mio:PRC_grabin_design_bureau_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "PRC" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+		#industrial_manufacturer = mio:PRC_morozov_design_bureau_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "PRC" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+		#industrial_manufacturer = mio:PRC_gaz_organization
+	}
+}

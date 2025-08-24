@@ -10,7 +10,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = GFX_idea_new_power
+			picture = new_power
 			
 			modifier = {
 				stability_factor = 0.25

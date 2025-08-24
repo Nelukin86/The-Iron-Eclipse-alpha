@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		idea_collabe_mans = {
+		    cancel = {
+                #is_subject_of = SOV #or is_subject = false
+				OR = {
+					is_subject_of = SOV
+					is_subject = false
+				}
+            }
+			removal_cost = -1
+		
+			allowed = {
+				always = yes
+			}
+
+			picture = collabe_mans
+			
+			modifier = {
+				stability_factor = -0.30
+				surrender_limit = -0.50
+			}
+		}
+	}
+}

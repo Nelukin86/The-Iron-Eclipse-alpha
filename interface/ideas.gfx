@@ -12,4 +12,8 @@ spriteTypes = {
 		name = "GFX_idea_new_power"
 		texturefile = "gfx/interface/ideas/idea_new_power.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_collabe_mans"
+		texturefile = "gfx/interface/ideas/idea_collabe_mans.dds"
+	}
 }
