@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_ideas_alliance"
+		texturefile = "gfx/interface/ideas/idea_ideas_alliance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_last_hope"
+		texturefile = "gfx/interface/ideas/idea_last_hope.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_new_power"
+		texturefile = "gfx/interface/ideas/idea_new_power.dds"
+	}
+}

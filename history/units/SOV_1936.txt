@@ -20,7 +20,7 @@
 
 units = {
 	division= {
-		name = "Moscow division"
+		name = "Strelkovaya division"
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
@@ -28,7 +28,7 @@ units = {
 		start_equipment_factor = 1
 	}
 	division= {
-		name = "Moscow division"
+		name = "Strelkovaya division"
 		location = 6380
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
@@ -36,7 +36,7 @@ units = {
 		start_equipment_factor = 1
 	}
 	division= {
-		name = "Donetsk division"
+		name = "Strelkovaya division"
 		location = 6474
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
@@ -211,6 +211,103 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+	############################################################################################################
+		division= {
+		name = "Strelkovaya division"
+		location = 9449
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3335
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3686
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 957
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 957
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 12189
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 4797
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 10627
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 7661
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 12320
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3653
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3734
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
 }					
 
 
@@ -225,7 +322,7 @@ instant_effect = {
 		requested_factories = 7
 		progress = 0.1
 		efficiency = 50
-		industrial_manufacturer = mio:SOV_tula_arms_plant_organization
+		#industrial_manufacturer = mio:SOV_tula_arms_plant_organization
 	}
 
 	add_equipment_production = {
@@ -236,7 +333,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.3
 		efficiency = 50
-		industrial_manufacturer = mio:SOV_mytishchy_machine_building_plant_organization
+		#industrial_manufacturer = mio:SOV_mytishchy_machine_building_plant_organization
 	}
 
 	add_equipment_production = {
@@ -247,7 +344,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
-		industrial_manufacturer = mio:SOV_grabin_design_bureau_organization
+		#industrial_manufacturer = mio:SOV_grabin_design_bureau_organization
 	}
 
 	add_equipment_production = {
@@ -258,7 +355,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = mio:SOV_morozov_design_bureau_organization
+		#industrial_manufacturer = mio:SOV_morozov_design_bureau_organization
 	}
 
 	add_equipment_production = {
@@ -269,6 +366,6 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = mio:SOV_gaz_organization
+		#industrial_manufacturer = mio:SOV_gaz_organization
 	}
 }

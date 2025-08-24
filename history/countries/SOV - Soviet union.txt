@@ -2,6 +2,8 @@
 add_to_faction = MON 
 add_to_faction = FIN
 
+add_ideas = idea_SOV_last_hope
+
 set_cosmetic_tag = SOV_russia
 oob = "SOV_1936"
 capital = 219 # Moscow
@@ -31,6 +33,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
+	mtg_transport = 1
 }
 
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
@@ -50,3 +53,5 @@ set_popularities = {
 }
 
 recruit_character = SOV_Nelukin
+recruit_character = SOV_General_Murzichnik
+recruit_character = SOV_Advisor_Murzichnik

@@ -1,30 +1,78 @@
-spriteTypes = {				
+spriteTypes = {
+
+	########################
+	### RUSSIA PORTRAITS ###
+	########################
+
 	spriteType = {
 		name = "GFX_SOV_Nelukin"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Andrey_Nelukin.dds"
 	}
 	spriteType = {
+		name = "GFX_SOV_General_Murzichnik"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_murzichnik.dds"
+	}
+	#spriteType = {
+		#name = "GFX_SOV_General_Niprontovich"
+		#texturefile = "gfx/leaders/SOV/Portrait_SOV_Niprontovich.dds"
+	#}
+	spriteType = {
+		name = "GFX_SOV_General_Murzichnik_Small"
+		texturefile = "gfx/interface/ideas/idea_sov_murzichnik.dds"
+	}
+		
+	#########################
+	### GERMANY PORTRAITS ###
+	######################### 
+
+	spriteType = {
 		name = "GFX_GER_Degurshaff"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Tanya_Degurechaff.dds"
 	}
+
+	##########################
+	### AMERICAN PORTRAITS ###
+	##########################
+ 
 	spriteType = {
 		name = "GFX_USA_Sitnikov"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Matvey_Sitnikov.dds"
 	}
+	
+	########################
+	### FRANCE PORTRAITS ###
+	########################
+ 
 	spriteType = {
 		name = "GFX_FRA_Puchkov"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Dmitriy_Puchkov.dds"
 	}
+		
+	#######################
+	### JAPAN PORTRAITS ###
+	#######################
+ 
 	spriteType = {
 		name = "GFX_JAP_Tetsu"
 		texturefile = "gfx/leaders/JAP/portrait_jap_tetsu_katayama.dds"
 	}
-		spriteType = {
+			
+	#######################
+	### CHINA PORTRAITS ###
+	#######################
+ 
+	spriteType = {
 		name = "GFX_PRC_Zubarev"
 		texturefile = "gfx/leaders/PRC/Portrait_prc_maxim_zubarev.dds"
 	}
-			spriteType = {
+				
+	########################
+	### BRITAN PORTRAITS ###
+	########################
+ 
+	spriteType = {
 		name = "GFX_ENG_Shabanov"
 		texturefile = "gfx/leaders/ENG/"
 	}
+
 }

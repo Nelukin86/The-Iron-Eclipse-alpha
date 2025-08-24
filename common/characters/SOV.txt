@@ -11,9 +11,96 @@ characters = {
 		 }
 		country_leader = {
 			ideology = socialism
-			traits = {}
+			traits = {
+				gray_cardinal
+			}
 			expire = "1964.3.1.1"
 			id = -1
 		}
+		field_marshal = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 5
+			id = -1
+			traits = {}
+		 }
+	}
+	SOV_General_Murzichnik = {
+		name = SOV_murzichnik
+		 portraits = {
+		 	civilian = {
+		 		large = "GFX_SOV_General_Murzichnik"
+		 	}
+			army = {
+                large = "GFX_SOV_General_Murzichnik"
+            }
+		 }
+		 corps_commander = {
+			skill = 1
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			id = -1
+			traits = {}
+		 }
+	}
+	SOV_General_Niprontovich = {
+		name = SOV_niprontovich
+		 portraits = {
+		 	civilian = {
+		 		large = "GFX_SOV_General_Niprontovich"
+		 	}
+			army = {
+                large = "GFX_SOV_General_Niprontovich"
+            }
+		 }
+		 corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			id = -1
+			traits = {}
+		 }
+	}
+	SOV_Advisor_Murzichnik = {
+		name = SOV_murzichnik
+		 portraits = {
+		 	civilian = {
+				small = "GFX_SOV_General_Murzichnik_Small"
+		 		#large = "GFX_SOV_General_Murzichnik"
+		 	}
+			army = {
+				small = "GFX_SOV_General_Murzichnik_Small"
+                #large = "GFX_SOV_General_Murzichnik"
+            }
+		 }
+		 advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				tag = SOV
+			}
+			cost = 50
+			traits = { 
+				Army_ReformBM
+			}
+			available = {
+				has_country_leader = {
+					character = SOV_Nelukin
+				}
+				#has_completed_focus = SOV_eat_burger_with_bro # раскоментить и удалить коммент когда будет фокус на похавать бургеры с братом нелукина
+				#NOT = { 
+					#has_completed_focus = SOV_Use_bro_in_poland # раскоментить и удалить коммент когда будет фокус на отправку брата нелукина в польшу для поднятия восстания
+				#}
+			}
+			ai_will_do = {
+				factor = 1.0
+			}
+		 }
 	}
 }

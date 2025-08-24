@@ -1,0 +1,178 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya"
+	division_names_group = FIN_INF_01
+	priority = 2
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Strelkovaya division"
+		location = 3083
+		division_template = "Strelkovaya Diviziya"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FIN" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}					
+
+
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FIN"
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 50
+		#industrial_manufacturer = mio:FIN_tula_arms_plant_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FIN" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+		#industrial_manufacturer = mio:FIN_mytishchy_machine_building_plant_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FIN" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+		#industrial_manufacturer = mio:FIN_grabin_design_bureau_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "FIN" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+		#industrial_manufacturer = mio:FIN_morozov_design_bureau_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "FIN" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+		#industrial_manufacturer = mio:FIN_gaz_organization
+	}
+}

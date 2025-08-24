@@ -1,4 +1,5 @@
 ﻿capital = 330
+oob = MON_1936
 
 oob = "MON_1936"
 

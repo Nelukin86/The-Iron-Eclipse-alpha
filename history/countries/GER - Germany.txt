@@ -31,6 +31,10 @@ add_to_faction = BLR
 add_to_faction = LIT 
 add_to_faction = LAT
 
+add_ideas = idea_GER_New_Power
+
+oob = "GER_1936"
+
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
