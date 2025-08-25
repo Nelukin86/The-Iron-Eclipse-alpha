@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		idea_SOV_last_hope = {
+			picture = last_hope
+			
+			removal_cost = -1
+		
+			allowed = {
+			 	has_country_leader = {
+					character = SOV_Nelukin
+				}
+			}
+			
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.30
+				command_power_gain_mult = 0.10
+				surrender_limit = 0.10
+				drift_defence_factor = 0.10
+				army_defence_factor = 0.15
+				army_attack_factor = 0.15
+			}
+		}
+	}
+		# Вернуть наши земли, идея по фокусу
+		country = {
+		idea_SOV_reclaim_our_lands = {
+			picture = reclaim_our_lands
+
+			cancel = {
+
+            }
+			removal_cost = -1
+		
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_factor = 0.10
+				army_defence_factor = 0.20
+				army_attack_factor = 0.20
+				mobilization_speed = 0.10
+				targeted_modifier = { tag = UKR attack_bonus_against = 0.20 }
+				targeted_modifier = { tag = BLR attack_bonus_against = 0.20 }
+			}
+		}
+	}
+}
