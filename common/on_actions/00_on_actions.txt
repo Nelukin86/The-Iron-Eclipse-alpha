@@ -674,10 +674,10 @@ on_actions = {
 					has_government = democratic
 					GER = { has_government = democratic }
 				}
-				FROM = { set_country_flag = GER_civil_war_target }
-				GER = { remove_from_faction = FROM }
-				GER = { add_to_faction = ROOT }
-				GER = { country_event = wtt_germany.52 }
+				#FROM = { set_country_flag = GER_civil_war_target }
+				#GER = { remove_from_faction = FROM }
+				#GER = { add_to_faction = ROOT }
+				#GER = { country_event = wtt_germany.52 }
 			}
 
 			#If prepared by siphoning equipment, receive equipment back
