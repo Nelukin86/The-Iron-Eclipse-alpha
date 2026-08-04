@@ -1,13 +1,24 @@
-state={
-	id=755
-	name="STATE_755"
-	provinces={
-		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146 13380
+state = {
+	id = 755
+	name = "STATE_755"
+	provinces = {
+		2053
+		2099
+		7997
+		10750
+		10796
+		10834
+		10865
+		12846
+		12890
+		13146
+		13380
+		13381
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
+	manpower = 1000000
+	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	history={
+	history = {
 		owner = PRC
 		add_core_of = XSM
 		add_core_of = CHI
@@ -15,7 +26,6 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
 		}
 		1938.10.25 = {
 			if = {
@@ -23,18 +33,12 @@ state={
 					NOT = {
 						has_dlc = "Waking the Tiger"
 					}
-
 				}
 				CHI = {
 					transfer_state = PREV
-
 				}
-
 			}
-
 		}
-
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }
