@@ -1,7 +1,6 @@
-﻿capital = 295 # Leopoldville/Kinshaasa
-
+capital = 295
 set_oob = "COG_1936"
-
+set_cosmetic_tag = COG_mittelafrika
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1
@@ -12,12 +11,9 @@ set_technology = {
 	interwar_antitank = 1
 	tech_engineers = 1
 }
-
-set_war_support = 0.4 
+set_war_support = 0.4
 set_stability = 0.35
-
 set_convoys = 5
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -28,4 +24,3 @@ set_popularities = {
 	neutrality = 80
 	democratic = 20
 }
-

@@ -1,12 +1,12 @@
 state = {
 	id = 336
 	name = "STATE_336"
-	manpower = 2893200
+	manpower = 2827446
 	state_category = large_town
 	resources = {
-		rubber = 342
+		rubber = 335
 		steel = 20
-		tungsten = 189
+		tungsten = 185
 		aluminium = 15
 	}
 	history = {
@@ -60,22 +60,6 @@ state = {
 		13408
 		13409
 		13410
-		1308
-		1281
-		10158
-		1279
-		4297
-		12230
-		12201
-		4312
-		1394
-		1366
-		1337
-		4371
-		12286
-		10156
-		7236
-		12131
 	}
 	local_supplies = 0.0
 }

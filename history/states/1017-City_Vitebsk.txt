@@ -1,0 +1,23 @@
+state = {
+	id = 1017
+	name = "City Vitebsk"
+	manpower = 608927
+	state_category = city
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 11241 5 }
+	}
+	provinces = {
+		9323
+		323
+		6249
+		6326
+		3219
+		11241
+		11220
+	}
+}

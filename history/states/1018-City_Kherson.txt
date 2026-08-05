@@ -1,0 +1,18 @@
+state = {
+	id = 1018
+	name = "City Kherson"
+	manpower = 91045
+	state_category = rural
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 11715 1 }
+	}
+	provinces = { 11715 }
+	resources = {
+		chromium = 1
+	}
+}
