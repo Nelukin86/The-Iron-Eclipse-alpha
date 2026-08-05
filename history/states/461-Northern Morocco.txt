@@ -1,9 +1,8 @@
-﻿state = {
+state = {
 	id = 461
 	name = "STATE_461"
 
 	resources = {
-		coal = 3
 		chromium = 12.000 #added due to portugal setup
 	}
 

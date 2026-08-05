@@ -1,12 +1,8 @@
-﻿state = {
+state = {
 	id = 127
 	name = "STATE_127" # Sussex
 	manpower = 3193383
 	state_category = large_city
-
-	resources = {
-		coal = 6
-	}
 
 	history = {
 

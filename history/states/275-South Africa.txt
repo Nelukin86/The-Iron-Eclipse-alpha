@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=275
 	name="STATE_275" # Transvaal
@@ -9,10 +9,6 @@ state={
 	resources={
 		steel=11 #was: 5   was: 8
 		chromium=53 # was: 80
-	}
-
-	resources = {
-		coal = 14
 	}
 
 	history={

@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=719
 	name="STATE_719" # Natal
 	manpower = 3962157
@@ -8,10 +8,6 @@
 	
 	state_category = city
 
-
-	resources = {
-		coal = 4
-	}
 
 	history={
 		owner = SAF

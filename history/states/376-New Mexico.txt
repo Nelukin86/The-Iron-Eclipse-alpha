@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=376
 	name="STATE_376"
@@ -11,10 +11,6 @@ state={
 		aluminium=30 # was: 52
 	}
 
-
-	resources = {
-		coal = 5
-	}
 
 	history={
 		owner = USA

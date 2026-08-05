@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=481
 	name="STATE_481" # Durango
@@ -6,10 +6,6 @@ state={
 	
 	state_category = rural
 	
-	resources = {
-		coal = 1
-	}
-
 	history={
 		owner = MEX
 		buildings = {

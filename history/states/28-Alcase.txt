@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=28
 	name="STATE_28" # Alsace-Lorraine
@@ -7,10 +7,6 @@ state={
 	state_category = city
 	resources={
 		steel=42 #was 100 # was: 236
-	}
-
-	resources = {
-		coal = 5
 	}
 
 	history={

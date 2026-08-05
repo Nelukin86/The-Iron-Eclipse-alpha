@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 	id = 506
 	name = "STATE_506" # Antofagasta
 	manpower = 423605
@@ -6,7 +6,6 @@
 	state_category = town
 
 	resources = {
-		coal = 1
 		tungsten = 42 # In replacement of Nitrate
 	}
 

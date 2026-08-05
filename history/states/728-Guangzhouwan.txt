@@ -1,14 +1,10 @@
-﻿state={
+state={
 	id=728
 	name="STATE_728"
 	manpower = 200000
 	
 	state_category = enclave
 	
-	resources = {
-		coal = 6
-	}
-
 	history={
 		owner = PRC
 		add_core_of = CHI

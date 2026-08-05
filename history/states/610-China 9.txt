@@ -1,12 +1,8 @@
-﻿state = {
+state = {
 	id = 610
 	name = "STATE_610"
 	manpower = 1975377
 	state_category = pastoral
-	resources = {
-		coal = 1
-	}
-
 	history = {
 		owner = PRC
 		add_core_of = CHI

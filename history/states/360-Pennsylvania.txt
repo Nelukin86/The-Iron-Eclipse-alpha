@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=360
 	name="STATE_360"
@@ -10,10 +10,6 @@ state={
 		steel=44 # was: 80
 	}
 
-
-	resources = {
-		coal = 160
-	}
 
 	history={
 		owner = USA

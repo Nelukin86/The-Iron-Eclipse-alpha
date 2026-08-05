@@ -1,14 +1,10 @@
-﻿state = {
+state = {
 	id = 114
 	name = "STATE_114"
 	manpower = 991921
 	
 	state_category = town
 	
-	resources = {
-		coal = 1
-	}
-
 	history = {
 		owner = ITA
 		victory_points = {

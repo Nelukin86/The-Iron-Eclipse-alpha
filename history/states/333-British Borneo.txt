@@ -1,4 +1,4 @@
-﻿state=
+state=
 {
 	id=333
 	name="STATE_333"
@@ -9,10 +9,6 @@
 	}
 	
 	state_category = rural
-
-	resources = {
-		coal = 1
-	}
 
 	history=
 	{

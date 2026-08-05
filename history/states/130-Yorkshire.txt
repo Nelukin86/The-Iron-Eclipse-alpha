@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=130
 	name="STATE_130"
@@ -8,10 +8,6 @@ state={
 	
 	resources={
 		steel=71 # was: 120
-	}
-
-	resources = {
-		coal = 51
 	}
 
 	history={

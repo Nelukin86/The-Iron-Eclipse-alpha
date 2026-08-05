@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=432
 	name="STATE_432"
 	resources={
@@ -11,10 +11,6 @@
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
-	resources = {
-		coal = 1
-	}
-
 	history={
 
 		owner = RAJ

@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=533
 	name="STATE_533" # Tohoku
@@ -6,10 +6,6 @@ state={
 	state_category = large_city
 	resources={
 		steel=27 # was: 35
-	}
-
-	resources = {
-		coal = 2
 	}
 
 	history={

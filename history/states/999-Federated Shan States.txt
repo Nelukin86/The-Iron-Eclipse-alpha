@@ -1,14 +1,10 @@
-﻿state = {
+state = {
 	id = 999
 	name = "STATE_999"
 	
 	state_category = rural
 	manpower = 1567516
 	
-	resources = {
-		coal = 4
-	}
-
 	history = {
 		owner = BRM
 		add_core_of = BRM

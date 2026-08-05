@@ -1,14 +1,10 @@
-﻿state={
+state={
 	id=72
 	name="STATE_72"
 	manpower = 152000
 	
 	state_category = rural
 	
-	resources = {
-		coal = 7
-	}
-
 	history={
 		owner = CZE
 		buildings = {

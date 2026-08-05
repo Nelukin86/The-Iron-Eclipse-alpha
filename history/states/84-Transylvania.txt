@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=84
 	name="STATE_84"
@@ -8,10 +8,6 @@ state={
 	}
 	
 	state_category = town
-
-	resources = {
-		coal = 3
-	}
 
 	history={
 		owner = ROM

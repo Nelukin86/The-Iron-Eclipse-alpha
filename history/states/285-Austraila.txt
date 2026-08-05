@@ -1,12 +1,8 @@
-﻿state = {
+state = {
 	id = 285
 	name = "STATE_285"
 	state_category = large_city
 	manpower = 2563100
-
-	resources = {
-		coal = 12
-	}
 
 	history = {
 

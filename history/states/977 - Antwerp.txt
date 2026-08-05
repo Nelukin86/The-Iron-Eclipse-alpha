@@ -1,10 +1,9 @@
-﻿state = {
+state = {
 	id = 977
 	name = "STATE_977" # Antwerpen
 	manpower = 1800000
 
 	#resources = {
-		coal = 2
 	#	steel = 10 # was: 48 then 10
 	#}
 	

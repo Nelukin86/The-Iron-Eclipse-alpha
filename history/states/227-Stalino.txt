@@ -1,14 +1,10 @@
-﻿
+
 state={
 	id=227
 	name="STATE_227"
 	manpower = 3767336
 	
 	state_category = city
-
-	resources = {
-		coal = 82
-	}
 
 	history={
 		owner = SOV

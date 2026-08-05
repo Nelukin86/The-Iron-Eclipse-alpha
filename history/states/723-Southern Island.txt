@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=723
 	name="STATE_723"
 	manpower = 547198
@@ -8,10 +8,6 @@
 
 	state_category = rural
 
-
-	resources = {
-		coal = 2
-	}
 
 	history={
 		owner = NZL
