@@ -1,10 +1,14 @@
-state=
+﻿state=
 {
 	id=327
 	name="STATE_327" # Luzon
 	manpower = 3548684
 	
 	state_category = town
+	resources = {
+		coal = 1
+	}
+
 	history=
 	{
 		owner = PHI

@@ -1,10 +1,14 @@
-state={
+﻿state={
 	id=80
 	name="STATE_80"
 	manpower = 474600
 	
 	state_category = rural
 	
+	resources = {
+		coal = 1
+	}
+
 	history=
 	{
 		victory_points = {

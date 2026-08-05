@@ -1,8 +1,12 @@
-state={
+﻿state={
 	id=521
 	name="STATE_521"
 	resources={
 		tungsten=24.000
+	}
+
+	resources = {
+		coal = 5
 	}
 
 	history={

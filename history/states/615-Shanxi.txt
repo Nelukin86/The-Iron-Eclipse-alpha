@@ -1,4 +1,4 @@
-state=
+﻿state=
 {
 	id=615
 	name="STATE_615"
@@ -6,6 +6,10 @@ state=
 	
 	state_category = town
 	
+	resources = {
+		coal = 19
+	}
+
 	history=
 	{
 		owner = PRC

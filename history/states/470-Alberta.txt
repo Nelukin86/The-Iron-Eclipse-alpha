@@ -1,6 +1,10 @@
-state={
+﻿state={
 	id=470
 	name="STATE_470"
+
+	resources = {
+		coal = 5
+	}
 
 	history={
 		owner = CAN

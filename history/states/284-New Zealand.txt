@@ -1,4 +1,4 @@
-
+﻿
 state={
 	id=284
 	name="STATE_284" # North Island
@@ -6,6 +6,10 @@ state={
 	
 	state_category = city
 	
+	resources = {
+		coal = 1
+	}
+
 	history={
 		owner = NZL
 		buildings = {

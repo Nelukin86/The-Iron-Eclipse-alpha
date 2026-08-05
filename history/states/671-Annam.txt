@@ -1,9 +1,10 @@
-state = {
+﻿state = {
 	id = 671
 	name = "STATE_671"
 	manpower = 11528000
 	state_category = town
 	resources = {
+		coal = 3
 		chromium = 6
 		tungsten = 27
 	}

@@ -1,4 +1,4 @@
-state = {
+﻿state = {
 	id = 181
 	name = "STATE_181"
 	manpower = 964700
@@ -6,6 +6,7 @@ state = {
 	state_category = town
 	
 	resources = {
+		coal = 1
 		tungsten = 95 #was 150 # was: 300
 	}
 

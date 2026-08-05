@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=261
 	name="STATE_261"
 	resources={
@@ -7,6 +7,10 @@ state={
 	}
 	
 	state_category = metropolis
+
+	resources = {
+		coal = 13
+	}
 
 	history={
 		owner = USA

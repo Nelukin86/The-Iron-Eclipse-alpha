@@ -1,10 +1,14 @@
-
+﻿
 state={
 	id=367
 	name="STATE_367"
 	manpower = 2646247
 	
 	state_category = city
+
+	resources = {
+		coal = 8
+	}
 
 	history={
 		owner = USA

@@ -1,4 +1,4 @@
-
+﻿
 state={
 	id=43
 	name="STATE_43" # Northern Hungary
@@ -9,6 +9,10 @@ state={
 	}
 	
 	state_category = large_city
+
+	resources = {
+		coal = 4
+	}
 
 	history={
 		owner = HUN

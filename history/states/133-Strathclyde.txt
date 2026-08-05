@@ -1,4 +1,4 @@
-
+﻿
 state={
 	id=133
 	name="STATE_133" # Lanark
@@ -8,6 +8,10 @@ state={
 	
 	resources={
 		steel=21 # was: 36
+	}
+
+	resources = {
+		coal = 29
 	}
 
 	history={

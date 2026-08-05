@@ -1,10 +1,14 @@
-
+﻿
 state={
 	id=578
 	name="STATE_578" # Tomsk
 	manpower = 609304
 	
 	state_category = rural
+
+	resources = {
+		coal = 16
+	}
 
 	history={
 		owner = SOV

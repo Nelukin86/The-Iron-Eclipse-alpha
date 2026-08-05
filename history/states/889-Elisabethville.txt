@@ -1,10 +1,11 @@
-state = {
+﻿state = {
 	id = 889
 	name = "STATE_889"
 	manpower = 708190
 	state_category = pastoral
 
 	resources = {
+		coal = 4
 		tungsten = 2.000
 	}
 

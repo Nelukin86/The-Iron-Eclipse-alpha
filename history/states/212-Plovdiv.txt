@@ -1,4 +1,4 @@
-
+﻿
 state={
 	id=212
 	name="STATE_212"
@@ -8,6 +8,10 @@ state={
 
 	resources={
 		chromium = 1
+	}
+
+	resources = {
+		coal = 2
 	}
 
 	history={

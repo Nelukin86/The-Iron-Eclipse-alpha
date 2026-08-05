@@ -1,4 +1,4 @@
-state= {
+﻿state= {
 	id=132
 	name="STATE_132" # Lancashire
 	manpower = 5770454
@@ -8,6 +8,10 @@ state= {
 	resources={
 		steel=31 # was: 56
 		aluminium=2 # was: 4
+	}
+
+	resources = {
+		coal = 33
 	}
 
 	history= {

@@ -1,4 +1,4 @@
-
+﻿
 state={
 	id=131
 	name="STATE_131"
@@ -6,6 +6,7 @@ state={
 	
 	state_category = city
 	resources = {
+		coal = 23
 		steel = 18
 		
 	}
