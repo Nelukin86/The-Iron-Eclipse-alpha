@@ -1,0 +1,45 @@
+add_namespace = ukraine_war
+add_namespace = belarus_war
+add_namespace = german_war
+add_namespace = sov_nelukin_land
+country_event = {
+	id = ukraine_war.1
+	title = ukraine_war.1.t
+	desc = ukraine_war.1.d
+	picture = GFX_report_event_ukraine_war_1
+	is_triggered_only = yes
+	option = {
+		name = ukraine_war.1.a
+	}
+}
+country_event = {
+	id = belarus_war.1
+	title = belarus_war.1.t
+	desc = belarus_war.1.d
+	picture = GFX_report_event_generic_sign_treaty
+	is_triggered_only = yes
+	option = {
+		name = belarus_war.1.a
+	}
+}
+country_event = {
+	id = german_war.1
+	title = german_war.1.t
+	desc = german_war.1.d
+	picture = GFX_report_event_generic_sign_treaty
+	is_triggered_only = yes
+	option = {
+		name = german_war.1.a
+	}
+}
+country_event = {
+	id = sov_nelukin_land.1
+	title = sov_nelukin_land.1.t
+	desc = sov_nelukin_land.1.d
+	picture = GFX_report_event_generic_sign_treaty
+	is_triggered_only = yes
+	option = {
+		name = sov_nelukin_land.1.a
+		add_ideas = { idea_SOV_reclaim_our_lands }
+	}
+}

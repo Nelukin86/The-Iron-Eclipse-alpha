@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_report_event_ukraine_war_1"
+		texturefile = "gfx/event_pictures/ukraine_war_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_report_event_belarus_war_2"
+		texturefile = "gfx/event_pictures/belarus_war_2.dds"
+	}
+}

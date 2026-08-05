@@ -1,25 +1,19 @@
-﻿create_faction = CSTO
-add_to_faction = MON 
+create_faction = ОДКБ
+add_to_faction = MON
 add_to_faction = FIN
-
 add_ideas = idea_SOV_last_hope
-
 set_cosmetic_tag = SOV_russia
 oob = "SOV_1936"
-capital = 219 # Moscow
-
+capital = 219
 starting_train_buffer = 3.0
-
 set_research_slots = 4
 set_stability = 0.5
 set_war_support = 0.3
-
-# Starting tech
-set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
+set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
@@ -33,11 +27,8 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	basic_train = 1
 	mtg_transport = 1
 }
-
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
-
 set_convoys = 50
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.7.1"
@@ -49,7 +40,6 @@ set_popularities = {
 	fascism = 10
 	communism = 20
 }
-
 recruit_character = SOV_Nelukin
 recruit_character = SOV_General_Murzichnik
 recruit_character = SOV_Advisor_Murzichnik

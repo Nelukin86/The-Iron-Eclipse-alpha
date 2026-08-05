@@ -1252,22 +1252,24 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_Comeback_our_lands
-		icon = GFX_goal_unknown
-		cost = 5,00
+		icon = GFX_goal_demand_sudetenland
+		cost = 10
 		prerequisite = {
 			focus = SOV_Socialist_Idilly
 			focus = SOV_Ultracentrism_era
 			focus = SOV_New_Red_Russia
 		}
-		x = 74
+		x = 73
 		y = 11
 		completion_reward = {
-			add_ideas = idea_SOV_reclaim_our_lands
+			country_event = {
+				id = sov_nelukin_land.1
+			}
 		}
 	}
 	focus = {
 		id = SOV_Target_on_UA
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_ukrainian_army
 		cost = 5,00
 		prerequisite = {
 			focus = SOV_Comeback_our_lands
@@ -1275,18 +1277,37 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_Target_on_BLR
 		}
-		x = 72
+		x = 71
 		y = 12
 		completion_reward = {
-			declare_war_on = {
-				target = UKR
-				type = annex_everything
+			custom_effect_tooltip = SOV_attack_ukraine_focus_tt
+			hidden_effect = {
+				declare_war_on = {
+					target = UKR
+					type = annex_everything
+				}
+				every_country = {
+					limit = {
+						OR = {
+							tag = SOV
+							is_in_faction_with = SOV
+							tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					country_event = {
+						id = german_war.1
+					}
+					country_event = {
+						id = ukraine_war.1
+					}
+				}
 			}
 		}
 	}
 	focus = {
 		id = SOV_Target_on_BLR
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_belarus_army
 		cost = 5,00
 		prerequisite = {
 			focus = SOV_Comeback_our_lands
@@ -1294,54 +1315,52 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_Target_on_UA
 		}
-		x = 76
+		x = 75
 		y = 12
 		completion_reward = {
-			declare_war_on = {
-				target = BLR
-				type = annex_everything
+			custom_effect_tooltip = SOV_attack_belarus_focus_tt
+			hidden_effect = {
+				declare_war_on = {
+					target = BLR
+					type = annex_everything
+				}
+				every_country = {
+					limit = {
+						OR = {
+							tag = SOV
+							is_in_faction_with = SOV
+							tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					country_event = {
+						id = german_war.1
+					}
+					country_event = {
+						id = belarus_war.1
+					}
+				}
 			}
 		}
 	}
 	focus = {
 		id = SOV_Nationalize_UA
-		icon = GFX_goal_unknown
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
 		cost = 10,00
 		prerequisite = {
 			focus = SOV_Target_on_UA
 			focus = SOV_Target_on_BLR
 		}
-		x = 74
+		x = 73
 		y = 13
-		available = {}
+		available = {
+			NOT = {
+				has_war = 1
+			}
+		}
 		completion_reward = {
-			add_core
-			193
-			SOV
-			add_core
-			225
-			SOV
-			add_core
-			259
-			SOV
-			add_core
-			203
-			SOV
-			add_core
-			202
-			SOV
-			add_core
-			201
-			SOV
-			add_core
-			93
-			SOV
-			add_core
-			199
-			SOV
-			add_core
-			89
-			SOV
+			set_country_flag = ukraine_integration_unlocked
+			add_political_power = 100
 		}
 	}
 }

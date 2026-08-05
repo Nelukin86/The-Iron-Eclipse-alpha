@@ -1,4 +1,5 @@
 ﻿l_russian:
+ COUNTRY_SELECTION_CHARACTER_DESC_NAME:0 "$NAME|Y$"
  SEPARATION_LINE: "--------------\n"
  MENU_MESSAGES_DISABLE_ALL: "Отключить все"
  FILTER: "Фильтр"
