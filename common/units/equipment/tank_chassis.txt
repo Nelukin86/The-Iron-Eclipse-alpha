@@ -15,7 +15,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -260,7 +260,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -502,7 +502,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -743,7 +743,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -928,7 +928,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -1110,7 +1110,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#BUL_army_restrictions_aat
 				}
 			}
 			else = {
@@ -1297,7 +1297,7 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					#has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {

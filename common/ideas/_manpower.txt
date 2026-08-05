@@ -41,10 +41,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -60,10 +60,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -74,10 +74,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -90,8 +90,8 @@ ideas = {
 					}
 					NOT = { has_country_flag = DEN_had_volunteer_only_flag }
 				}
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
+				#NOT = { has_idea = undisturbed_isolation }
+				#NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -99,7 +99,7 @@ ideas = {
 
    				modifier = {
 					factor = 60 # being disarmed is bad in a wargame yo
-					has_idea = disarmed_nation
+					#has_idea = disarmed_nation
 				}
 			}
 
@@ -121,8 +121,8 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
+				#NOT = { has_idea = undisturbed_isolation }
+				#NOT = { has_idea = isolation }
 				if = {
 					limit = {
 						original_tag = AST
@@ -157,10 +157,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -176,10 +176,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -190,10 +190,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -225,12 +225,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							#has_idea = BUL_army_restrictions_aat
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							#has_idea = BUL_army_restrictions
 						}
 					}
 				}
@@ -245,7 +245,7 @@ ideas = {
 						original_tag = AUS
 					}
 					NOT = {
-						has_idea = AUS_treaty_of_saint_germain_en_laye
+						#has_idea = AUS_treaty_of_saint_germain_en_laye
 					}
 				}
 				IF = {
@@ -275,7 +275,7 @@ ideas = {
 				}
 				modifier = {
 					tag = ENG
-					has_idea_with_trait = military_theorist
+					#has_idea_with_trait = military_theorist
 					factor = 20
 				}
 				modifier = {
@@ -302,12 +302,12 @@ ideas = {
 					tag = SOV
 					is_historical_focus_on = yes
 					date > 1939.1.1
-					has_idea = volunteer_only
+					#has_idea = volunteer_only
 					factor = 201
 				}
 				modifier = {
 					factor = 0
-					NOT = { has_idea = volunteer_only }
+					#NOT = { has_idea = volunteer_only }
 				}
 			}
 
@@ -395,10 +395,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -414,10 +414,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -428,10 +428,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -463,12 +463,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							#has_idea = BUL_army_restrictions_aat
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							#has_idea = BUL_army_restrictions
 						}
 					}
 				}
@@ -483,7 +483,7 @@ ideas = {
 						original_tag = AUS
 					}
 					NOT = {
-						has_idea = AUS_treaty_of_saint_germain_en_laye
+						#has_idea = AUS_treaty_of_saint_germain_en_laye
 					}
 				}
 				IF = {
@@ -542,7 +542,7 @@ ideas = {
 
 				modifier = {
 					factor = 0
-					NOT = { has_idea = limited_conscription }
+					#NOT = { has_idea = limited_conscription }
 				}
 
 				modifier = {
@@ -634,10 +634,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -653,10 +653,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -667,10 +667,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -702,12 +702,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							#has_idea = BUL_army_restrictions_aat
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							#has_idea = BUL_army_restrictions
 						}
 					}
 				}
@@ -722,7 +722,7 @@ ideas = {
 						original_tag = AUS
 					}
 					NOT = {
-						has_idea = AUS_treaty_of_saint_germain_en_laye
+						#has_idea = AUS_treaty_of_saint_germain_en_laye
 					}
 				}
 				IF = {
@@ -784,7 +784,7 @@ ideas = {
 
 				modifier = {
 					factor = 0
-					NOT = { has_idea = extensive_conscription }
+					#NOT = { has_idea = extensive_conscription }
 				}
 
 				modifier = {
@@ -870,10 +870,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -889,10 +889,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -903,10 +903,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -938,12 +938,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							#has_idea = BUL_army_restrictions_aat
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							#has_idea = BUL_army_restrictions
 						}
 					}
 				}
@@ -958,7 +958,7 @@ ideas = {
 						original_tag = AUS
 					}
 					NOT = {
-						has_idea = AUS_treaty_of_saint_germain_en_laye
+						#has_idea = AUS_treaty_of_saint_germain_en_laye
 					}
 				}
 				IF = {
@@ -1004,7 +1004,7 @@ ideas = {
 
 				modifier = {
 					factor = 0
-					NOT = { has_idea = service_by_requirement }
+					#NOT = { has_idea = service_by_requirement }
 				}
 
 			}
@@ -1015,7 +1015,7 @@ ideas = {
 						has_dlc = "Arms Against Tyranny"
 						original_tag = FIN
 						has_completed_focus = FIN_militarized_society
-						NOT = { has_idea = FIN_militarized_society }
+						#NOT = { has_idea = FIN_militarized_society }
 					}
 					add_ideas = FIN_militarized_society
 				}
@@ -1092,10 +1092,10 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+						#NOT = { has_idea = HUN_treaty_of_triannon_aat }
 					}
 					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
+						#NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
 				ELSE_IF = {
@@ -1111,10 +1111,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
 								}
 							}
 							
@@ -1125,10 +1125,10 @@ ideas = {
 							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
 							NOT = { 
 								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									#has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
 								}
 							}
 						}
@@ -1160,12 +1160,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							#has_idea = BUL_army_restrictions_aat
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							#has_idea = BUL_army_restrictions
 						}
 					}
 				}
@@ -1180,7 +1180,7 @@ ideas = {
 						original_tag = AUS
 					}
 					NOT = {
-						has_idea = AUS_treaty_of_saint_germain_en_laye
+						#has_idea = AUS_treaty_of_saint_germain_en_laye
 					}
 				}
 				IF = {
@@ -1212,7 +1212,7 @@ ideas = {
 
 				modifier = {
 					factor = 0
-					NOT = { has_idea = all_adults_serve }
+					#NOT = { has_idea = all_adults_serve }
 				}
 
 			}
@@ -1223,7 +1223,7 @@ ideas = {
 						has_dlc = "Arms Against Tyranny"
 						original_tag = FIN
 						has_completed_focus = FIN_militarized_society
-						NOT = { has_idea = FIN_militarized_society }
+						#NOT = { has_idea = FIN_militarized_society }
 					}
 					add_ideas = FIN_militarized_society
 				}

@@ -18,8 +18,7 @@ ideas = {
 				army_attack_factor = 0.15
 			}
 		}
-	}
-	country = {
+
 		idea_SOV_reclaim_our_lands = {
 			picture = SOV_red_army_alt_ccp_2d_sov_compatibility
 			cancel = {}
